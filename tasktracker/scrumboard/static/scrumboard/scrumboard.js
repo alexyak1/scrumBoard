@@ -5,7 +5,7 @@
         .controller('ScrumboardController', 
         ['$scope', '$http', ScrumboardController]);
 
-    function ScrumboardController($scope) {
+    function ScrumboardController($scope, $http) {
         $scope.add = function(list, title) {
             var card = {
                 list: list.id,
