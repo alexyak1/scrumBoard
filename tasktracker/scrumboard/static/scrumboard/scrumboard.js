@@ -20,6 +20,11 @@
                 });
         };
         
+        $scope.login = function(){
+            $http.post('/auth_api/login/',
+            {username: 'admin', password: 'work'});
+        };
+
         $scope.data = [];
         $http.get('/scrumboard/lists/').then(
             function (response) {
