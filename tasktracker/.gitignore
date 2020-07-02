@@ -1,1 +1,4 @@
 .idea
+tasktracker/__pycache__/
+scrumboard/__pycache__/
+auth_api/__pycache__/
